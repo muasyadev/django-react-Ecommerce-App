@@ -1,0 +1,19 @@
+.NavbarContainer {
+  position: fixed;
+  left: 0;
+  top: 75px;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  width: 130px;
+  padding-top: 5px;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.sidebar-icon {
+  width: 100px;
+  padding: 15px 15px;
+  cursor: pointer;
+}

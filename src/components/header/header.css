@@ -1,0 +1,83 @@
+.head {
+  background-color: rgb(44, 44, 44);
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 100;
+  transition: width 0.3s ease;
+}
+.amazonLogo {
+  height: 90%;
+  width: 100px;
+  border-radius: 70%;
+  padding-left: 2px;
+}
+.searchBox {
+  display: flex;
+  align-items: center;
+  flex-shrink: -50%;
+  position: relative;
+}
+.headerInput {
+  width: 800px;
+  height: 45px;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.inputSearch-button {
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right: 0;
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+  border-color: whitesmoke;
+  padding-left: 20px; /* Optional: Change border color on focus */
+}
+.mainUser {
+  margin-top: 10px;
+  width: 55px;
+  border-radius: 60%;
+  border-color: black;
+}
+.cart-css {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+}
+.amazon-cart {
+  padding-left: 20px;
+  height: 45px;
+  position: relative;
+}
+
+.cart-quantity-update {
+  color: rgb(240, 136, 4);
+  background-color: white;
+  height: 30%;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  top: 11px;
+  right: 54px;
+  width: 26px;
+  text-align: center;
+  cursor: pointer;
+}
+.ButtonCart {
+  border: none;
+  background-color: rgb(44, 44, 44);
+  cursor: pointer;
+}
